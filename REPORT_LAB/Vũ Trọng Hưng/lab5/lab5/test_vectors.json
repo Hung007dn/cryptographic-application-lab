@@ -1,0 +1,35 @@
+{
+  "description": "Lab 5 signature known-answer/self-validation tests. For randomized or library-managed signature schemes, the test validates sign/verify correctness and tamper rejection rather than comparing a fixed signature byte string.",
+  "tests": [
+    {
+      "name": "ECDSA P-256 SHA-256 sign verify",
+      "algorithm": "ecdsa-p256",
+      "hash": "sha256",
+      "message": "abc"
+    },
+    {
+      "name": "ECDSA P-256 SHA-256 longer message",
+      "algorithm": "ecdsa-p256",
+      "hash": "sha256",
+      "message": "Lab 5 ECDSA P-256 known answer validation message"
+    },
+    {
+      "name": "ECDSA P-384 SHA-384 sign verify",
+      "algorithm": "ecdsa-p384",
+      "hash": "sha384",
+      "message": "Lab 5 ECDSA P-384 validation message"
+    },
+    {
+      "name": "RSA-PSS 3072 SHA-256 sign verify",
+      "algorithm": "rsa-pss-3072",
+      "hash": "sha256",
+      "message": "abc"
+    },
+    {
+      "name": "RSA-PSS 3072 SHA-256 longer message",
+      "algorithm": "rsa-pss-3072",
+      "hash": "sha256",
+      "message": "Lab 5 RSA-PSS-3072 known answer validation message"
+    }
+  ]
+}

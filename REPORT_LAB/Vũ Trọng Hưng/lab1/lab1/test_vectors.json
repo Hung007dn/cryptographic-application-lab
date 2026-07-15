@@ -1,0 +1,58 @@
+{
+  "tests": [
+    {
+      "name": "AES-128-CBC NIST SP 800-38A F.2.1 Block 1",
+      "mode": "cbc",
+      "key": "2b7e151628aed2a6abf7158809cf4f3c",
+      "iv": "000102030405060708090a0b0c0d0e0f",
+      "plaintext": "6bc1bee22e409f96e93d7e117393172a",
+      "ciphertext": "7649abac8119b246cee98e9b12e9197d"
+    },
+    {
+      "name": "AES-128-CFB128 NIST SP 800-38A F.3.13 Block 1",
+      "mode": "cfb",
+      "key": "2b7e151628aed2a6abf7158809cf4f3c",
+      "iv": "000102030405060708090a0b0c0d0e0f",
+      "plaintext": "6bc1bee22e409f96e93d7e117393172a",
+      "ciphertext": "3b3fd92eb72dad20333449f8e83cfb4a"
+    },
+    {
+      "name": "AES-128-OFB NIST SP 800-38A F.4.1 Block 1",
+      "mode": "ofb",
+      "key": "2b7e151628aed2a6abf7158809cf4f3c",
+      "iv": "000102030405060708090a0b0c0d0e0f",
+      "plaintext": "6bc1bee22e409f96e93d7e117393172a",
+      "ciphertext": "3b3fd92eb72dad20333449f8e83cfb4a"
+    },
+    {
+      "name": "AES-128-CTR NIST SP 800-38A F.5.1 Block 1",
+      "mode": "ctr",
+      "key": "2b7e151628aed2a6abf7158809cf4f3c",
+      "iv": "f0f1f2f3f4f5f6f7f8f9fafbfcfdfeff",
+      "plaintext": "6bc1bee22e409f96e93d7e117393172a",
+      "ciphertext": "874d6191b620e3261bef6864990db6ce"
+    },
+    {
+      "name": "AES-128-GCM NIST SP 800-38D Test Case 2",
+      "mode": "gcm",
+      "key": "00000000000000000000000000000000",
+      "iv": "000000000000000000000000",
+      "plaintext": "00000000000000000000000000000000",
+      "aad": "",
+      "ciphertext": "0388dace60b6a392f328c2b971b2fe78",
+      "tag": "ab6e47d42cec13bdf53a67b21257bddf",
+      "tag_size": 16
+    },
+    {
+      "name": "AES-128-CCM RFC 3610 Test Case 1",
+      "mode": "ccm",
+      "key": "404142434445464748494a4b4c4d4e4f",
+      "iv": "10111213141516",
+      "plaintext": "20212223",
+      "aad": "0001020304050607",
+      "ciphertext": "7162015b",
+      "tag": "4dac255d",
+      "tag_size": 4
+    }
+  ]
+}

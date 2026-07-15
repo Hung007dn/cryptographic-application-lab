@@ -1,0 +1,26 @@
+{
+    "is_currently_valid": true,
+    "issuer": "CN=localhost",
+    "key_usage": [
+        "Digital Signature",
+        "Key Agreement"
+    ],
+    "not_after": "Jun  8 03:33:15 2027 GMT",
+    "not_before": "Jun  8 03:33:15 2026 GMT",
+    "public_key_algorithm": "id-ecPublicKey",
+    "public_key_params": "EC / ECDSA capable",
+    "serial_number": "710A9C1EB4CB157BB702F221F0C2753382A59922",
+    "sha1_fingerprint": "6A:B6:4A:9A:C1:8D:36:09:89:20:7D:D0:6F:96:E1:7F:96:B4:77:EC",
+    "sha256_fingerprint": "4C:B3:2E:7D:A2:62:51:4F:CD:10:F9:E7:A8:5F:D4:A7:E1:57:37:AB:78:5A:2E:F8:CE:54:76:E3:FA:13:25:BD",
+    "signature_algorithm": "ecdsa-with-SHA256",
+    "signature_valid": true,
+    "subject": "CN=localhost",
+    "subject_alt_names": [
+        "localhost",
+        "example.local",
+        "IP address (4 bytes)"
+    ],
+    "tbs_integrity_valid": true,
+    "validation_error": "",
+    "version": "3"
+}

@@ -1,0 +1,311 @@
+Linux 6.12.38+kali-amd64 (kali) 	06/09/2026 	_x86_64_	(4 CPU)
+
+11:32:43 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:32:44 AM     0      1073    0.00    0.99    0.00    0.00    0.99     3  Xorg
+11:32:44 AM  1000     69293    0.00    0.99    0.00    0.00    0.99     3  qterminal
+11:32:44 AM  1000     80069    0.00    0.99    0.00    0.00    0.99     1  pidstat
+
+11:32:44 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:32:45 AM     0     71535    0.00    1.00    0.00    0.00    1.00     2  kworker/u130:8-ext4-rsv-conversion
+11:32:45 AM  1000     80069    0.00    1.00    0.00    0.00    1.00     1  pidstat
+
+11:32:45 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:32:46 AM     0      1054    0.00    1.00    0.00    0.00    1.00     1  containerd
+11:32:46 AM     0      1073    0.00    1.00    0.00    0.00    1.00     3  Xorg
+11:32:46 AM  1000      1802    0.00    1.00    0.00    0.00    1.00     3  wrapper-2.0
+
+11:32:46 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:32:47 AM  1000      1737    0.00    1.00    0.00    0.00    1.00     2  xfwm4
+
+11:32:47 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:32:48 AM     0      1073    0.00    2.00    0.00    0.00    2.00     3  Xorg
+11:32:48 AM  1000      1628    1.00    1.00    0.00    0.00    2.00     1  xfce4-session
+11:32:48 AM  1000      1774    1.00    0.00    0.00    0.00    1.00     0  xfce4-panel
+11:32:48 AM  1000      1790    0.00    1.00    0.00    0.00    1.00     0  xfdesktop
+11:32:48 AM  1000      1800    1.00    0.00    0.00    0.00    1.00     2  wrapper-2.0
+11:32:48 AM  1000     79993    1.00    1.00    0.00    0.00    2.00     3  qterminal
+11:32:48 AM  1000     80069    1.00    1.00    0.00    0.00    2.00     1  pidstat
+
+11:32:48 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:32:49 AM     0      1073    0.00    1.00    0.00    0.00    1.00     2  Xorg
+11:32:49 AM  1000     79993    1.00    0.00    0.00    0.00    1.00     0  qterminal
+11:32:49 AM  1000     80000    1.00    0.00    0.00    0.00    1.00     1  zsh
+11:32:49 AM  1000     80120    1.00    2.00    0.00    0.00    3.00     3  python3
+
+11:32:49 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:32:50 AM     0      1073    2.00    2.00    0.00    0.00    4.00     2  Xorg
+11:32:50 AM  1000      1737    0.00    1.00    0.00    1.00    1.00     3  xfwm4
+11:32:50 AM  1000     79993    1.00    2.00    0.00    0.00    3.00     3  qterminal
+11:32:50 AM  1000     80069    0.00    1.00    0.00    0.00    1.00     1  pidstat
+11:32:50 AM  1000     80120    0.00    2.00    0.00    0.00    2.00     3  python3
+11:32:50 AM  1000     80254   19.00    1.00    0.00    0.00   20.00     0  hashtool
+
+11:32:50 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:32:51 AM     0      1073    2.00    4.00    0.00    1.00    6.00     2  Xorg
+11:32:51 AM  1000      1737    0.00    1.00    0.00    1.00    1.00     0  xfwm4
+11:32:51 AM  1000     79993    0.00    1.00    0.00    0.00    1.00     0  qterminal
+11:32:51 AM  1000     80069    0.00    1.00    0.00    0.00    1.00     1  pidstat
+11:32:51 AM  1000     80267    5.00    0.00    0.00    0.00    5.00     3  hashtool
+
+11:32:51 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:32:52 AM     0      1073    0.00    2.00    0.00    0.00    2.00     3  Xorg
+11:32:52 AM  1000      1737    0.00    1.00    0.00    0.00    1.00     3  xfwm4
+11:32:52 AM  1000      1802    1.00    0.00    0.00    0.00    1.00     0  wrapper-2.0
+11:32:52 AM  1000     79993    0.00    1.00    0.00    0.00    1.00     0  qterminal
+11:32:52 AM  1000     80279   11.00    0.00    0.00    0.00   11.00     2  hashtool
+
+11:32:52 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:32:53 AM     0       446    0.00    1.00    0.00    0.00    1.00     3  irq/56-vmw_vmci
+11:32:53 AM     0      1073    1.00    0.00    0.00    0.00    1.00     3  Xorg
+11:32:53 AM  1000     80069    0.00    1.00    0.00    0.00    1.00     1  pidstat
+11:32:53 AM  1000     80291   18.00    1.00    0.00    0.00   19.00     2  hashtool
+
+11:32:53 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:32:54 AM     0      1073    1.00    0.00    0.00    0.00    1.00     3  Xorg
+11:32:54 AM  1000      1874    1.00    0.00    0.00    0.00    1.00     3  vmtoolsd
+11:32:54 AM  1000     79993    0.00    1.00    0.00    0.00    1.00     1  qterminal
+11:32:54 AM  1000     80120    1.00    1.00    0.00    0.00    2.00     3  python3
+11:32:54 AM  1000     80304    7.00    0.00    0.00    0.00    7.00     2  hashtool
+
+11:32:54 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:32:55 AM     0      1073    1.00    1.00    0.00    0.00    2.00     3  Xorg
+11:32:55 AM  1000      1802    0.00    1.00    0.00    0.00    1.00     1  wrapper-2.0
+11:32:55 AM  1000     80069    0.00    1.00    0.00    0.00    1.00     1  pidstat
+11:32:55 AM  1000     80316   15.00    0.00    0.00    0.00   15.00     2  hashtool
+
+11:32:55 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:32:56 AM     0      1073    1.00    0.00    0.00    0.00    1.00     0  Xorg
+11:32:56 AM  1000      1737    0.00    1.00    0.00    0.00    1.00     1  xfwm4
+11:32:56 AM  1000      1800    0.00    1.00    0.00    0.00    1.00     3  wrapper-2.0
+11:32:56 AM  1000     79993    0.00    1.00    0.00    0.00    1.00     1  qterminal
+11:32:56 AM  1000     80329    4.00    0.00    0.00    0.00    4.00     2  hashtool
+
+11:32:56 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:32:57 AM     0      1073    0.00    1.00    0.00    0.00    1.00     1  Xorg
+11:32:57 AM  1000     80069    1.00    0.00    0.00    0.00    1.00     1  pidstat
+11:32:57 AM  1000     80342    7.00    0.00    0.00    0.00    7.00     3  hashtool
+
+11:32:57 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:32:58 AM     0      1073    0.00    2.00    0.00    0.00    2.00     2  Xorg
+11:32:58 AM  1000     79993    0.00    1.00    0.00    0.00    1.00     3  qterminal
+11:32:58 AM  1000     80357    3.00    0.00    0.00    0.00    3.00     0  hashtool
+
+11:32:58 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:32:59 AM     0      1073    0.00    2.00    0.00    0.00    2.00     3  Xorg
+11:32:59 AM  1000     79993    0.00    1.00    0.00    0.00    1.00     2  qterminal
+11:32:59 AM  1000     80069    1.00    1.00    0.00    0.00    2.00     0  pidstat
+11:32:59 AM  1000     80371   12.00    0.00    0.00    0.00   12.00     1  hashtool
+
+11:32:59 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:33:00 AM     0      1073    1.00    1.00    0.00    0.00    2.00     2  Xorg
+11:33:00 AM  1000      1737    0.00    1.00    0.00    0.00    1.00     3  xfwm4
+11:33:00 AM  1000     80120    0.00    1.00    0.00    0.00    1.00     0  python3
+11:33:00 AM  1000     80386    7.00    0.00    0.00    0.00    7.00     1  hashtool
+
+11:33:00 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:33:01 AM     0      1054    0.00    1.00    0.00    0.00    1.00     1  containerd
+11:33:01 AM     0      1073    0.00    2.00    0.00    0.00    2.00     3  Xorg
+11:33:01 AM  1000      1790    0.00    1.00    0.00    0.00    1.00     2  xfdesktop
+11:33:01 AM  1000      1800    1.00    0.00    0.00    0.00    1.00     2  wrapper-2.0
+11:33:01 AM  1000     79993    1.00    1.00    0.00    0.00    2.00     3  qterminal
+11:33:01 AM  1000     80401    1.00    0.00    0.00    0.00    1.00     2  hashtool
+
+11:33:01 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:33:02 AM     0        65    0.00    1.00    0.00    0.00    1.00     1  kworker/1:1-events
+11:33:02 AM     0      1073    2.00    1.00    0.00    0.00    3.00     2  Xorg
+11:33:02 AM  1000     79993    0.00    1.00    0.00    0.00    1.00     3  qterminal
+11:33:02 AM  1000     80069    0.00    1.00    0.00    0.00    1.00     1  pidstat
+11:33:02 AM  1000     80414    5.00    0.00    0.00    0.00    5.00     0  hashtool
+
+11:33:02 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:33:03 AM     0      1073    6.00    0.00    0.00    1.00    6.00     3  Xorg
+11:33:03 AM  1000      1737    0.00    2.00    0.00    1.00    2.00     3  xfwm4
+11:33:03 AM  1000      1800    0.00    1.00    0.00    0.00    1.00     3  wrapper-2.0
+11:33:03 AM  1000     79993    0.00    1.00    0.00    1.00    1.00     3  qterminal
+11:33:03 AM  1000     80069    0.00    1.00    0.00    0.00    1.00     1  pidstat
+11:33:03 AM  1000     80120    0.00    1.00    0.00    0.00    1.00     0  python3
+11:33:03 AM  1000     80426   17.00    0.00    0.00    0.00   17.00     2  hashtool
+
+11:33:03 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:33:04 AM     0      1073    3.00    5.00    0.00    0.00    8.00     3  Xorg
+11:33:04 AM  1000      1737    1.00    1.00    0.00    1.00    2.00     2  xfwm4
+11:33:04 AM  1000      1883    0.00    1.00    0.00    0.00    1.00     1  xfce4-screensav
+11:33:04 AM  1000     79993    1.00    1.00    0.00    0.00    2.00     3  qterminal
+11:33:04 AM  1000     80439    8.00    0.00    0.00    0.00    8.00     0  hashtool
+
+11:33:04 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:33:05 AM     0      1073    0.00    1.00    0.00    0.00    1.00     2  Xorg
+11:33:05 AM  1000     80069    1.00    1.00    0.00    0.00    2.00     1  pidstat
+11:33:05 AM  1000     80452    2.00    0.00    0.00    0.00    2.00     0  hashtool
+
+11:33:05 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:33:06 AM     0      1073    0.00    1.00    0.00    0.00    1.00     3  Xorg
+11:33:06 AM  1000      1737    0.00    1.00    0.00    0.00    1.00     2  xfwm4
+11:33:06 AM  1000      1802    1.00    0.00    0.00    0.00    1.00     1  wrapper-2.0
+11:33:06 AM  1000     80464   15.00    1.00    0.00    0.00   16.00     0  hashtool
+
+11:33:06 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:33:07 AM     0      1073    0.00    2.00    0.00    0.00    2.00     2  Xorg
+11:33:07 AM  1000      1802    0.00    1.00    0.00    0.00    1.00     1  wrapper-2.0
+11:33:07 AM  1000     79993    0.00    1.00    0.00    0.00    1.00     3  qterminal
+11:33:07 AM  1000     80477    7.00    0.00    0.00    0.00    7.00     0  hashtool
+
+11:33:07 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:33:08 AM     0      1073    0.00    1.98    0.00    0.00    1.98     3  Xorg
+11:33:08 AM  1000      1800    0.99    0.00    0.00    0.00    0.99     2  wrapper-2.0
+11:33:08 AM     0     59435    0.00    0.99    0.00    0.00    0.99     0  kworker/0:1-events
+11:33:08 AM  1000     80069    0.99    0.00    0.00    0.00    0.99     1  pidstat
+11:33:08 AM  1000     80489   19.80    0.00    0.00    0.00   19.80     0  hashtool
+
+11:33:08 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:33:09 AM     0       666    0.00    1.00    0.00    0.00    1.00     2  vmtoolsd
+11:33:09 AM     0      1073    0.00    1.00    0.00    0.00    1.00     3  Xorg
+11:33:09 AM  1000      1874    1.00    0.00    0.00    0.00    1.00     2  vmtoolsd
+11:33:09 AM  1000     79993    0.00    1.00    0.00    0.00    1.00     2  qterminal
+11:33:09 AM  1000     80069    0.00    1.00    0.00    0.00    1.00     0  pidstat
+11:33:09 AM  1000     80120    0.00    1.00    0.00    0.00    1.00     2  python3
+11:33:09 AM  1000     80500   20.00    0.00    0.00    0.00   20.00     1  hashtool
+
+11:33:09 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:33:10 AM     0      1073    0.00    1.00    0.00    0.00    1.00     3  Xorg
+11:33:10 AM  1000      1737    0.00    1.00    0.00    0.00    1.00     2  xfwm4
+11:33:10 AM  1000      1790    1.00    0.00    0.00    0.00    1.00     2  xfdesktop
+11:33:10 AM  1000     79993    1.00    0.00    0.00    0.00    1.00     3  qterminal
+11:33:10 AM  1000     80511    2.00    0.00    0.00    0.00    2.00     1  hashtool
+
+11:33:10 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:33:11 AM     0      1073    0.00    1.00    0.00    0.00    1.00     3  Xorg
+11:33:11 AM  1000     80069    0.00    1.00    0.00    0.00    1.00     0  pidstat
+11:33:11 AM  1000     80521   21.00    0.00    0.00    0.00   21.00     1  hashtool
+
+11:33:11 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:33:12 AM     0      1073    0.00    1.00    0.00    0.00    1.00     2  Xorg
+11:33:12 AM  1000      1800    1.00    0.00    0.00    0.00    1.00     2  wrapper-2.0
+11:33:12 AM  1000     80069    1.00    0.00    0.00    0.00    1.00     0  pidstat
+
+11:33:12 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:33:13 AM     0      1073    0.00    1.00    0.00    0.00    1.00     3  Xorg
+11:33:13 AM  1000     80069    0.00    1.00    0.00    0.00    1.00     0  pidstat
+11:33:13 AM  1000     80542   21.00    0.00    0.00    0.00   21.00     1  hashtool
+
+11:33:13 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:33:14 AM     0      1073    0.00    1.00    0.00    0.00    1.00     3  Xorg
+11:33:14 AM  1000      1802    0.00    1.00    0.00    0.00    1.00     0  wrapper-2.0
+11:33:14 AM  1000     80553    3.00    0.00    0.00    0.00    3.00     1  hashtool
+
+11:33:14 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:33:15 AM     0      1073    0.00    1.00    0.00    0.00    1.00     3  Xorg
+11:33:15 AM  1000     80069    0.00    1.00    0.00    0.00    1.00     0  pidstat
+11:33:15 AM  1000     80563   24.00    0.00    0.00    0.00   24.00     1  hashtool
+
+11:33:15 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:33:16 AM     0      1073    0.00    1.00    0.00    0.00    1.00     2  Xorg
+11:33:16 AM  1000      1800    0.00    1.00    0.00    0.00    1.00     3  wrapper-2.0
+11:33:16 AM  1000     79993    0.00    1.00    0.00    0.00    1.00     3  qterminal
+11:33:16 AM  1000     80574    2.00    0.00    0.00    0.00    2.00     3  hashtool
+
+11:33:16 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:33:17 AM     0       666    1.00    0.00    0.00    0.00    1.00     3  vmtoolsd
+11:33:17 AM     0      1073    0.00    1.00    0.00    0.00    1.00     3  Xorg
+11:33:17 AM  1000     79993    1.00    0.00    0.00    0.00    1.00     3  qterminal
+11:33:17 AM  1000     80069    1.00    0.00    0.00    0.00    1.00     1  pidstat
+11:33:17 AM  1000     80584   22.00    1.00    0.00    0.00   23.00     0  hashtool
+
+11:33:17 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:33:18 AM   991       487    0.00    1.00    0.00    0.00    1.00     1  systemd-timesyn
+11:33:18 AM     0      1073    0.00    1.00    0.00    0.00    1.00     3  Xorg
+11:33:18 AM  1000      1737    1.00    0.00    0.00    0.00    1.00     2  xfwm4
+11:33:18 AM  1000     80069    0.00    1.00    0.00    0.00    1.00     1  pidstat
+11:33:18 AM  1000     80595    4.00    0.00    0.00    0.00    4.00     0  hashtool
+
+11:33:18 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:33:19 AM     0      1054    0.00    1.00    0.00    0.00    1.00     1  containerd
+11:33:19 AM     0      1073    0.00    1.00    0.00    0.00    1.00     3  Xorg
+11:33:19 AM  1000     80120    0.00    1.00    0.00    0.00    1.00     1  python3
+11:33:19 AM  1000     80605   26.00    0.00    0.00    0.00   26.00     0  hashtool
+
+11:33:19 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:33:20 AM     0        18    0.00    1.00    0.00    0.00    1.00     1  rcu_preempt
+11:33:20 AM     0      1073    1.00    0.00    0.00    0.00    1.00     3  Xorg
+11:33:20 AM  1000      1737    0.00    1.00    0.00    0.00    1.00     2  xfwm4
+11:33:20 AM  1000     80069    1.00    0.00    0.00    0.00    1.00     1  pidstat
+11:33:20 AM  1000     80616   10.00    0.00    0.00    0.00   10.00     0  hashtool
+
+11:33:20 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:33:21 AM     0      1073    3.00    1.00    0.00    1.00    4.00     3  Xorg
+11:33:21 AM  1000      1774    1.00    1.00    0.00    1.00    2.00     1  xfce4-panel
+11:33:21 AM  1000      1800    1.00    0.00    0.00    0.00    1.00     2  wrapper-2.0
+11:33:21 AM  1000     79993    0.00    1.00    0.00    0.00    1.00     0  qterminal
+11:33:21 AM  1000     80000    1.00    1.00    0.00    0.00    2.00     2  zsh
+11:33:21 AM  1000     80069    0.00    1.00    0.00    0.00    1.00     1  pidstat
+
+11:33:21 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+
+11:33:22 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:33:23 AM     0      1073    0.00    1.00    0.00    0.00    1.00     2  Xorg
+11:33:23 AM  1000      1737    0.00    1.00    0.00    0.00    1.00     2  xfwm4
+11:33:23 AM  1000      1800    0.00    1.00    0.00    0.00    1.00     2  wrapper-2.0
+11:33:23 AM  1000      1806    1.00    0.00    0.00    0.00    1.00     1  wrapper-2.0
+11:33:23 AM  1000      1874    1.00    0.00    0.00    0.00    1.00     0  vmtoolsd
+11:33:23 AM  1000     69293    0.00    1.00    0.00    0.00    1.00     0  qterminal
+11:33:23 AM  1000     80069    1.00    1.00    0.00    0.00    2.00     1  pidstat
+
+11:33:23 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:33:24 AM     0      1073    1.00    3.00    0.00    0.00    4.00     0  Xorg
+11:33:24 AM  1000      1737    0.00    2.00    0.00    0.00    2.00     1  xfwm4
+11:33:24 AM  1000      1783    0.00    2.00    0.00    0.00    2.00     2  Thunar
+11:33:24 AM  1000      1800    1.00    0.00    0.00    0.00    1.00     2  wrapper-2.0
+11:33:24 AM  1000      1802    0.00    1.00    0.00    0.00    1.00     0  wrapper-2.0
+
+11:33:24 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:33:25 AM     0      1073    0.00    1.00    0.00    0.00    1.00     3  Xorg
+11:33:25 AM     0     54695    0.00    1.00    0.00    0.00    1.00     2  kworker/2:0-mpt_poll_0
+11:33:25 AM  1000     80069    0.00    1.00    0.00    0.00    1.00     1  pidstat
+
+11:33:25 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:33:26 AM     0      1073    0.00    3.00    0.00    0.00    3.00     3  Xorg
+11:33:26 AM  1000      1737    0.00    2.00    0.00    0.00    2.00     2  xfwm4
+11:33:26 AM  1000      1783    0.00    2.00    0.00    0.00    2.00     3  Thunar
+
+11:33:26 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:33:27 AM     0      1073    1.00    1.00    0.00    0.00    2.00     0  Xorg
+11:33:27 AM  1000      1800    1.00    0.00    0.00    0.00    1.00     2  wrapper-2.0
+11:33:27 AM  1000     80069    0.00    1.00    0.00    0.00    1.00     1  pidstat
+
+11:33:27 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:33:28 AM     0      1054    0.00    1.00    0.00    0.00    1.00     1  containerd
+11:33:28 AM  1000      1737    0.00    1.00    0.00    0.00    1.00     2  xfwm4
+11:33:28 AM  1000      1802    0.00    1.00    0.00    0.00    1.00     1  wrapper-2.0
+
+11:33:28 AM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:33:29 AM     0        65    0.00    1.00    0.00    0.00    1.00     1  kworker/1:1-events
+11:33:29 AM     0      1073    1.00    0.00    0.00    0.00    1.00     2  Xorg
+11:33:29 AM  1000      1800    1.00    0.00    0.00    0.00    1.00     2  wrapper-2.0
+11:33:29 AM  1000     80069    0.00    1.00    0.00    0.00    1.00     1  pidstat
+
+
+Average:      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+Average:        0        18    0.00    0.02    0.00    0.04    0.02     -  rcu_preempt
+Average:        0        65    0.00    0.04    0.00    0.02    0.04     -  kworker/1:1-events
+Average:        0       446    0.00    0.02    0.00    0.00    0.02     -  irq/56-vmw_vmci
+Average:      991       487    0.00    0.02    0.00    0.00    0.02     -  systemd-timesyn
+Average:        0       666    0.02    0.02    0.00    0.00    0.04     -  vmtoolsd
+Average:        0      1054    0.00    0.09    0.00    0.00    0.09     -  containerd
+Average:        0      1073    0.59    1.20    0.00    0.07    1.78     -  Xorg
+Average:     1000      1628    0.02    0.02    0.00    0.11    0.04     -  xfce4-session
+Average:     1000      1737    0.04    0.39    0.00    0.15    0.43     -  xfwm4
+Average:     1000      1774    0.04    0.02    0.00    0.02    0.07     -  xfce4-panel
+Average:     1000      1783    0.00    0.09    0.00    0.00    0.09     -  Thunar
+Average:     1000      1790    0.02    0.04    0.00    0.02    0.07     -  xfdesktop
+Average:     1000      1800    0.17    0.09    0.00    0.00    0.26     -  wrapper-2.0
+Average:     1000      1802    0.04    0.13    0.00    0.00    0.17     -  wrapper-2.0
+Average:     1000      1806    0.02    0.00    0.00    0.00    0.02     -  wrapper-2.0
+Average:     1000      1874    0.07    0.00    0.00    0.00    0.07     -  vmtoolsd
+Average:     1000      1883    0.00    0.02    0.00    0.02    0.02     -  xfce4-screensav
+Average:        0     54695    0.00    0.02    0.00    0.07    0.02     -  kworker/2:0-mpt_poll_0
+Average:        0     59435    0.00    0.02    0.00    0.04    0.02     -  kworker/0:1-events
+Average:     1000     69293    0.00    0.04    0.00    0.00    0.04     -  qterminal
+Average:        0     71535    0.00    0.02    0.00    0.00    0.02     -  kworker/u130:8-kvfree_rcu_reclaim
+Average:     1000     79993    0.15    0.37    0.00    0.02    0.52     -  qterminal
+Average:     1000     80000    0.04    0.02    0.00    0.00    0.07     -  zsh
+Average:     1000     80069    0.20    0.46    0.00    0.00    0.65     -  pidstat

@@ -1,0 +1,78 @@
+Controlled MD5 Collision Demonstration - HashClash / fastcoll Command Log
+=======================================================================
+
+Purpose:
+This log records the local HashClash fastcoll workflow used for the controlled MD5 collision demonstration in Lab 4.
+
+Approach:
+A single benign PNG file was used as the prefix. HashClash fastcoll generated two different output files by appending different collision blocks after the PNG prefix. Because PNG decoders ignore trailing bytes after the PNG end marker, both outputs remain benign/openable PNG files while having the same MD5 digest.
+
+Working directory:
+~/md5_png_collision
+
+Step 1 - Create a benign PNG prefix:
+python3 make_pngs.py
+
+Prefix file used:
+prefix_red.png
+
+Prefix file verification:
+file prefix_red.png
+
+Observed output:
+prefix_red.png: PNG image data, 1 x 1, 8-bit/color RGB, non-interlaced
+
+Step 2 - Create a separate fastcoll output directory:
+mkdir -p ~/md5_png_fastcoll
+cd ~/md5_png_fastcoll
+
+Step 3 - Copy the PNG prefix:
+cp ~/md5_png_collision/prefix_red.png prefix.png
+
+Step 4 - Generate two colliding PNG files using HashClash fastcoll:
+~/hashclash/bin/md5_fastcoll -p prefix.png -o collision1.png collision2.png
+
+Expected result:
+HashClash fastcoll produces two different files:
+collision1.png
+collision2.png
+
+Step 5 - Verify that both files are still PNG files:
+file collision1.png collision2.png
+
+Expected output:
+collision1.png: PNG image data
+collision2.png: PNG image data
+
+Step 6 - Verify that the MD5 digests are identical:
+md5sum collision1.png collision2.png
+
+Expected result:
+Both files have the same MD5 digest.
+
+Step 7 - Verify that SHA-256 digests are different:
+sha256sum collision1.png collision2.png
+
+Expected result:
+The two files have different SHA-256 digests.
+
+Step 8 - Verify that the files differ at the byte level:
+cmp -l collision1.png collision2.png | head
+
+Expected result:
+The command prints byte differences, proving the files are not identical.
+
+Step 9 - Verify using the Lab 4 hashtool:
+./hashtool --md5-collision --file1 collision1.png --file2 collision2.png
+
+or on Windows:
+hashtool.exe --md5-collision --file1 collision1.png --file2 collision2.png
+
+Expected hashtool verification:
+- Files differ: yes
+- MD5 File 1 equals MD5 File 2
+- SHA-256 File 1 differs from SHA-256 File 2
+- [+] MD5 collision confirmed.
+
+Security note:
+This demonstration was performed only in a local, controlled lab environment using benign PNG files. It demonstrates MD5 collision weakness, not preimage recovery. No real-world target, third-party system, or unauthorized file was used.

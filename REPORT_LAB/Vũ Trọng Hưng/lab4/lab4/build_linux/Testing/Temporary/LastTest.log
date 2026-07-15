@@ -1,0 +1,147 @@
+Start testing: Jun 09 04:45 EDT
+----------------------------------------------------------
+1/4 Testing: help_test
+1/4 Test: help_test
+Command: "/home/kali/Desktop/REPORT_5_LAB/lab4/lab4/build_linux/hashtool" "--help"
+Directory: /home/kali/Desktop/REPORT_5_LAB/lab4/lab4/build_linux
+"help_test" start time: Jun 09 04:45 EDT
+Output:
+----------------------------------------------------------
+Lab 4 HashTool - Hashing, PKI, and Practical Attacks
+
+Basic hashing:
+  hashtool --algo sha256 --in file.bin
+  hashtool --algo sha512 --in large.iso --stream
+  hashtool --algo shake256 --outlen 64 --in file.bin
+  hashtool --algo sha256 --in file.bin --out digest.bin --format raw
+
+Supported algorithms:
+  sha224, sha256, sha384, sha512
+  sha3-224, sha3-256, sha3-384, sha3-512
+  shake128, shake256
+
+Testing:
+  hashtool --kat test_vectors.json
+  hashtool --test-nist
+  hashtool --negative-tests
+
+Benchmark:
+  hashtool --benchmark
+  hashtool --benchmark --include-1gb
+
+Certificate analysis:
+  hashtool --cert --in cert.pem
+  hashtool --cert --in cert.pem --issuer issuer.pem
+  hashtool --cert --in cert.pem --out cert_report.json
+
+MD5 collision demonstration:
+  hashtool --md5-collision --file1 a.bin --file2 b.bin
+  hashtool --md5-demo
+
+Length extension demo:
+  hashtool --length-extension-demo
+
+Options:
+  --in FILE
+  --out FILE
+  --algo NAME
+  --outlen BYTES
+  --format hex|raw
+  --stream
+  --help, -h
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"help_test" end time: Jun 09 04:45 EDT
+"help_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: kat_tests
+2/4 Test: kat_tests
+Command: "/home/kali/Desktop/REPORT_5_LAB/lab4/lab4/build_linux/hashtool" "--kat" "/home/kali/Desktop/REPORT_5_LAB/lab4/lab4/test_vectors.json"
+Directory: /home/kali/Desktop/REPORT_5_LAB/lab4/lab4/build_linux
+"kat_tests" start time: Jun 09 04:45 EDT
+Output:
+----------------------------------------------------------
+
+=== Hash Function KAT Test Suite ===
+
+[PASSED] SHA-224 Empty String                          (1ms)
+[PASSED] SHA-224 abc                                   (0ms)
+[PASSED] SHA-256 Empty String                          (0ms)
+[PASSED] SHA-256 abc                                   (0ms)
+[PASSED] SHA-384 Empty String                          (0ms)
+[PASSED] SHA-384 abc                                   (0ms)
+[PASSED] SHA-512 Empty String                          (0ms)
+[PASSED] SHA-512 abc                                   (0ms)
+[PASSED] SHA3-224 Empty String                         (0ms)
+[PASSED] SHA3-224 abc                                  (0ms)
+[PASSED] SHA3-256 Empty String                         (0ms)
+[PASSED] SHA3-256 abc                                  (0ms)
+[PASSED] SHA3-384 Empty String                         (0ms)
+[PASSED] SHA3-384 abc                                  (0ms)
+[PASSED] SHA3-512 Empty String                         (0ms)
+[PASSED] SHA3-512 abc                                  (0ms)
+[PASSED] SHAKE128 Empty String 32 bytes                (0ms)
+[PASSED] SHAKE128 abc 32 bytes                         (0ms)
+[PASSED] SHAKE256 Empty String 64 bytes                (0ms)
+[PASSED] SHAKE256 abc 64 bytes                         (0ms)
+
+=== Summary ===
+Total: 20
+Passed: 20
+Failed: 0
+Success rate: 100%
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"kat_tests" end time: Jun 09 04:45 EDT
+"kat_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: negative_tests
+3/4 Test: negative_tests
+Command: "/home/kali/Desktop/REPORT_5_LAB/lab4/lab4/build_linux/hashtool" "--negative-tests"
+Directory: /home/kali/Desktop/REPORT_5_LAB/lab4/lab4/build_linux
+"negative_tests" start time: Jun 09 04:45 EDT
+Output:
+----------------------------------------------------------
+
+=== Lab4 Negative Tests ===
+
+[PASSED] Unsupported algorithm | expected: Rejected | actual: Rejected
+[PASSED] Unsupported output format | expected: Rejected | actual: Rejected
+[PASSED] Missing input file | expected: Rejected | actual: Rejected
+[PASSED] Invalid SHAKE outlen | expected: Rejected | actual: Rejected
+[PASSED] Raw output without output file | expected: Rejected | actual: Rejected
+
+Passed: 5/5
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"negative_tests" end time: Jun 09 04:45 EDT
+"negative_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: unit_tests
+4/4 Test: unit_tests
+Command: "/home/kali/Desktop/REPORT_5_LAB/lab4/lab4/build_linux/unit_tests"
+Directory: /home/kali/Desktop/REPORT_5_LAB/lab4/lab4/build_linux
+"unit_tests" start time: Jun 09 04:45 EDT
+Output:
+----------------------------------------------------------
+===============================================================================
+All tests passed (45 assertions in 14 test cases)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"unit_tests" end time: Jun 09 04:45 EDT
+"unit_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 09 04:45 EDT

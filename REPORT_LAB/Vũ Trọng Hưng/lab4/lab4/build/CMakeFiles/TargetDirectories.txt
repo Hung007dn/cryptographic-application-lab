@@ -1,0 +1,5 @@
+C:/VTH/lab4/lab4/build/CMakeFiles/hashtool.dir
+C:/VTH/lab4/lab4/build/CMakeFiles/unit_tests.dir
+C:/VTH/lab4/lab4/build/CMakeFiles/test.dir
+C:/VTH/lab4/lab4/build/CMakeFiles/edit_cache.dir
+C:/VTH/lab4/lab4/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,162 @@
+Start testing: Jun 11 11:13 EDT
+----------------------------------------------------------
+1/4 Testing: help_test
+1/4 Test: help_test
+Command: "/home/kali/Desktop/REPORT_5_LAB/lab5/lab5/build_linux/sigtool" "--help"
+Directory: /home/kali/Desktop/REPORT_5_LAB/lab5/lab5/build_linux
+"help_test" start time: Jun 11 11:13 EDT
+Output:
+----------------------------------------------------------
+Lab 5 SigTool - Classical Digital Signatures
+
+Key generation:
+  sigtool keygen --algo ecdsa-p256 --pub pub.pem --priv priv.pem
+  sigtool keygen --algo ecdsa-p384 --pub pub.pem --priv priv.pem
+  sigtool keygen --algo rsa-pss-3072 --pub pub.pem --priv priv.pem
+
+Signing:
+  sigtool sign --algo ecdsa-p256 --in msg.bin --priv priv.pem --out sig.bin --hash sha256 --encode der
+  sigtool sign --algo rsa-pss-3072 --in msg.bin --priv priv.pem --out sig.bin --hash sha256 --encode raw
+
+Verification:
+  sigtool verify --algo ecdsa-p256 --in msg.bin --sig sig.bin --pub pub.pem --hash sha256 --encode der
+  sigtool verify --algo rsa-pss-3072 --in msg.bin --sig sig.bin --pub pub.pem --hash sha256 --encode raw
+
+Testing and benchmarks:
+  sigtool --negative-tests
+  sigtool --benchmark
+  sigtool --batch-demo
+  sigtool --manual-pss-demo
+
+Algorithms:
+  ecdsa-p256
+  ecdsa-p384
+  rsa-pss-3072
+
+Hashes:
+  sha256
+  sha384
+
+Signature encodings:
+  raw
+  der
+  base64
+
+Options:
+  --algo NAME
+  --in FILE
+  --out FILE
+  --pub FILE
+  --priv FILE
+  --sig FILE
+  --hash sha256|sha384
+  --encode raw|der|base64
+  --help, -h
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"help_test" end time: Jun 11 11:13 EDT
+"help_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: kat_tests
+2/4 Test: kat_tests
+Command: "/home/kali/Desktop/REPORT_5_LAB/lab5/lab5/build_linux/sigtool" "--kat" "/home/kali/Desktop/REPORT_5_LAB/lab5/lab5/test_vectors.json"
+Directory: /home/kali/Desktop/REPORT_5_LAB/lab5/lab5/build_linux
+"kat_tests" start time: Jun 11 11:13 EDT
+Output:
+----------------------------------------------------------
+
+=== Lab 5 Signature KAT Suite ===
+
+[INFO] Generated ECDSA-P256 key pair
+[PASSED] ECDSA P-256 SHA-256 sign verify          algo=ecdsa-p256 hash=sha256
+[INFO] Generated ECDSA-P256 key pair
+[PASSED] ECDSA P-256 SHA-256 longer message       algo=ecdsa-p256 hash=sha256
+[INFO] Generated ECDSA-P384 key pair
+[PASSED] ECDSA P-384 SHA-384 sign verify          algo=ecdsa-p384 hash=sha384
+[INFO] Generated RSA-PSS-3072 key pair
+[PASSED] RSA-PSS 3072 SHA-256 sign verify         algo=rsa-pss-3072 hash=sha256
+[INFO] Generated RSA-PSS-3072 key pair
+[PASSED] RSA-PSS 3072 SHA-256 longer message      algo=rsa-pss-3072 hash=sha256
+
+=== KAT Summary ===
+Total: 5
+Passed: 5
+Failed: 0
+Success rate: 100%
+<end of output>
+Test time =   0.37 sec
+----------------------------------------------------------
+Test Passed.
+"kat_tests" end time: Jun 11 11:13 EDT
+"kat_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: negative_tests
+3/4 Test: negative_tests
+Command: "/home/kali/Desktop/REPORT_5_LAB/lab5/lab5/build_linux/sigtool" "--negative-tests"
+Directory: /home/kali/Desktop/REPORT_5_LAB/lab5/lab5/build_linux
+"negative_tests" start time: Jun 11 11:13 EDT
+Output:
+----------------------------------------------------------
+
+=== Lab 5 Signature Negative Tests ===
+
+[INFO] Generated ECDSA-P256 key pair
+[INFO] Generated ECDSA-P256 key pair
+[INFO] Generated RSA-PSS-3072 key pair
+[INFO] Generated RSA-PSS-3072 key pair
+[INFO] Generated ECDSA-P256 key pair
+[PASSED] Modified message verification | Expected: Verification must fail | Actual: Failed as expected
+[PASSED] Modified signature verification | Expected: Verification must fail | Actual: Failed as expected
+[PASSED] Wrong public key verification | Expected: Verification must fail | Actual: Failed as expected
+[PASSED] Wrong algorithm identifier | Expected: Unsupported algorithm must be rejected | Actual: Rejected as expected
+[PASSED] Wrong hash function verification | Expected: Verification must fail | Actual: Failed as expected
+[PASSED] Malformed public key | Expected: Malformed key must be rejected | Actual: Rejected as expected
+[PASSED] Unsupported signature encoding | Expected: Unsupported encoding must be rejected | Actual: Rejected as expected
+
+=== Summary ===
+Total: 7
+Passed: 7
+Failed: 0
+<end of output>
+Test time =   0.77 sec
+----------------------------------------------------------
+Test Passed.
+"negative_tests" end time: Jun 11 11:13 EDT
+"negative_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: unit_tests
+4/4 Test: unit_tests
+Command: "/home/kali/Desktop/REPORT_5_LAB/lab5/lab5/build_linux/unit_tests"
+Directory: /home/kali/Desktop/REPORT_5_LAB/lab5/lab5/build_linux
+"unit_tests" start time: Jun 11 11:13 EDT
+Output:
+----------------------------------------------------------
+[INFO] Generated ECDSA-P256 key pair
+[INFO] Generated ECDSA-P256 key pair
+[INFO] Generated ECDSA-P256 key pair
+[INFO] Generated ECDSA-P384 key pair
+[INFO] Generated RSA-PSS-3072 key pair
+[INFO] Generated RSA-PSS-3072 key pair
+[INFO] Generated ECDSA-P256 key pair
+[INFO] Generated ECDSA-P256 key pair
+[INFO] Generated ECDSA-P256 key pair
+[INFO] Generated ECDSA-P256 key pair
+[INFO] Generated ECDSA-P256 key pair
+[INFO] Generated ECDSA-P256 key pair
+===============================================================================
+All tests passed (57 assertions in 15 test cases)
+
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Passed.
+"unit_tests" end time: Jun 11 11:13 EDT
+"unit_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 11 11:13 EDT

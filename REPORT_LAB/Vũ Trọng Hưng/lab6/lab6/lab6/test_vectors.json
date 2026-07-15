@@ -1,0 +1,28 @@
+{
+  "description": "Lab 6 PQC self-validation vectors. ML-DSA and ML-KEM are randomized/library-managed, so the tests validate key generation, sign/verify, encaps/decaps, tamper rejection, and shared-secret mismatch rather than comparing fixed byte strings.",
+  "tests": [
+    {
+      "name": "ML-DSA-44 sign verify and tamper rejection",
+      "type": "mldsa-sign-verify",
+      "algorithm": "mldsa-44",
+      "message": "abc"
+    },
+    {
+      "name": "ML-DSA-44 longer message sign verify",
+      "type": "mldsa-sign-verify",
+      "algorithm": "mldsa-44",
+      "message": "Lab 6 ML-DSA-44 self-validation message"
+    },
+    {
+      "name": "ML-DSA-65 sign verify and tamper rejection",
+      "type": "mldsa-sign-verify",
+      "algorithm": "mldsa-65",
+      "message": "Lab 6 ML-DSA-65 optional validation message"
+    },
+    {
+      "name": "ML-KEM-512 encaps decaps shared-secret match",
+      "type": "mlkem-encaps-decaps",
+      "algorithm": "mlkem-512"
+    }
+  ]
+}

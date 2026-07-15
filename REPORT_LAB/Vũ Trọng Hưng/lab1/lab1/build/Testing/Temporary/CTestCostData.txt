@@ -1,0 +1,5 @@
+help_test 1 0.476073
+kat_vectors_test 1 0.0310391
+negative_tests 1 0.0176147
+unit_tests 1 0.132733
+---

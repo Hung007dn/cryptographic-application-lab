@@ -1,0 +1,6 @@
+/home/kali/Desktop/REPORT_5_LAB/lab3/lab3/build_linux/CMakeFiles/rsa_core.dir
+/home/kali/Desktop/REPORT_5_LAB/lab3/lab3/build_linux/CMakeFiles/rsatool.dir
+/home/kali/Desktop/REPORT_5_LAB/lab3/lab3/build_linux/CMakeFiles/unit_tests.dir
+/home/kali/Desktop/REPORT_5_LAB/lab3/lab3/build_linux/CMakeFiles/test.dir
+/home/kali/Desktop/REPORT_5_LAB/lab3/lab3/build_linux/CMakeFiles/edit_cache.dir
+/home/kali/Desktop/REPORT_5_LAB/lab3/lab3/build_linux/CMakeFiles/rebuild_cache.dir

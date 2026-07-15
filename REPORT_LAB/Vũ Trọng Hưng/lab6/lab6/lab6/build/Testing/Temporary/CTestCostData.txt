@@ -1,0 +1,7 @@
+help_test 1 0.0147395
+kat_tests 1 0.0158013
+negative_tests 1 0.0149621
+batch_verify_demo 1 0.0197349
+batch_decaps_bench 1 0.013958
+unit_tests 1 0.298471
+---

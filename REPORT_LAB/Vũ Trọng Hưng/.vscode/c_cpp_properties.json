@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "name": "Win32",
+      "includePath": [
+        "${workspaceFolder}",
+        "${workspaceFolder}/cryptopp/include",
+        "${workspaceFolder}/nlohmann",
+        "${workspaceFolder}/openssl/include",
+        "${workspaceFolder}/lab4/lab4",
+        "${workspaceFolder}/lab5/lab5"
+      ],
+      "defines": [],
+      "compilerPath": "D:/mingw64/bin/g++.exe",
+      "cStandard": "c17",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "windows-gcc-x64"
+    }
+  ],
+  "version": 4
+}

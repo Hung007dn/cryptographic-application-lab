@@ -1,0 +1,5 @@
+C:/Users/lenovo/Desktop/REPORT~2/VTRNGH~1/lab6/lab6/lab6/build/CMakeFiles/pqtool.dir
+C:/Users/lenovo/Desktop/REPORT~2/VTRNGH~1/lab6/lab6/lab6/build/CMakeFiles/unit_tests.dir
+C:/Users/lenovo/Desktop/REPORT~2/VTRNGH~1/lab6/lab6/lab6/build/CMakeFiles/test.dir
+C:/Users/lenovo/Desktop/REPORT~2/VTRNGH~1/lab6/lab6/lab6/build/CMakeFiles/edit_cache.dir
+C:/Users/lenovo/Desktop/REPORT~2/VTRNGH~1/lab6/lab6/lab6/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,2 @@
+/home/kali/md5_png_fastcoll/collision1.png: PNG image data, 1 x 1, 8-bit/color RGB, non-interlaced
+/home/kali/md5_png_fastcoll/collision2.png: PNG image data, 1 x 1, 8-bit/color RGB, non-interlaced

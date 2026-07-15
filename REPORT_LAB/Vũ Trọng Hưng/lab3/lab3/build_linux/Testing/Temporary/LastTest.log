@@ -1,0 +1,111 @@
+Start testing: Jun 07 01:10 EDT
+----------------------------------------------------------
+1/2 Testing: help_test
+1/2 Test: help_test
+Command: "/home/kali/Desktop/REPORT_5_LAB/lab3/lab3/build_linux/rsatool" "--help"
+Directory: /home/kali/Desktop/REPORT_5_LAB/lab3/lab3/build_linux
+"help_test" start time: Jun 07 01:10 EDT
+Output:
+----------------------------------------------------------
+RSA Tool - RSA-OAEP & Hybrid Encryption
+
+Key Generation:
+  rsatool keygen --bits 3072 --pub pub.pem --priv priv.pem
+
+Encryption:
+  rsatool encrypt --in msg.bin --pub pub.pem --out ct.bin [--label label] [--encode raw|hex|base64]
+
+Decryption:
+  rsatool decrypt --in ct.bin --priv priv.pem --out msg.bin [--label label] [--encode raw|hex|base64]
+
+Testing:
+  rsatool --kat test_vectors_rsa.json      Run JSON test vectors
+  rsatool --test-vectors test_vectors_rsa.json  Alias for --kat
+  rsatool --test-nist                     Run built-in RSA-OAEP validation
+  rsatool --benchmark                     Run performance benchmarks
+  rsatool --negative-tests                Run negative/error tests
+
+  rsatool --manual-oaep-test              Run manual RSA-OAEP tests
+Output Format:
+  --encode raw|hex|base64 (default: base64)
+  --format raw|hex|base64 is also accepted as a compatibility alias
+  --out-format pem|der (for keys)
+
+Options:
+  --force-hybrid   Force hybrid mode even for small messages
+  --help, -h       Show this help
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"help_test" end time: Jun 07 01:10 EDT
+"help_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: unit_tests
+2/2 Test: unit_tests
+Command: "/home/kali/Desktop/REPORT_5_LAB/lab3/lab3/build_linux/unit_tests"
+Directory: /home/kali/Desktop/REPORT_5_LAB/lab3/lab3/build_linux
+"unit_tests" start time: Jun 07 01:10 EDT
+Output:
+----------------------------------------------------------
+[INFO] Generating RSA-3072 key pair...
+[INFO] Key generation complete!
+[INFO] Max plaintext size: 318 bytes
+[INFO] Generating RSA-4096 key pair...
+[INFO] Key generation complete!
+[INFO] Max plaintext size: 446 bytes
+[INFO] Generating RSA-3072 key pair...
+[INFO] Key generation complete!
+[INFO] Max plaintext size: 318 bytes
+[INFO] Generating RSA-3072 key pair...
+[INFO] Key generation complete!
+[INFO] Max plaintext size: 318 bytes
+[INFO] Generating RSA-3072 key pair...
+[INFO] Key generation complete!
+[INFO] Max plaintext size: 318 bytes
+[INFO] Generating RSA-3072 key pair...
+[INFO] Key generation complete!
+[INFO] Max plaintext size: 318 bytes
+[INFO] Generating RSA-3072 key pair...
+[INFO] Key generation complete!
+[INFO] Max plaintext size: 318 bytes
+[INFO] Generating RSA-4096 key pair...
+[INFO] Key generation complete!
+[INFO] Max plaintext size: 446 bytes
+[INFO] Generating RSA-3072 key pair...
+[INFO] Key generation complete!
+[INFO] Max plaintext size: 318 bytes
+[INFO] Generating RSA-3072 key pair...
+[INFO] Key generation complete!
+[INFO] Max plaintext size: 318 bytes
+[INFO] Generating RSA-3072 key pair...
+[INFO] Key generation complete!
+[INFO] Max plaintext size: 318 bytes
+[INFO] Generating RSA-3072 key pair...
+[INFO] Key generation complete!
+[INFO] Max plaintext size: 318 bytes
+[INFO] Generating RSA-3072 key pair...
+[INFO] Key generation complete!
+[INFO] Max plaintext size: 318 bytes
+[INFO] Generating RSA-3072 key pair...
+[INFO] Key generation complete!
+[INFO] Max plaintext size: 318 bytes
+[INFO] Generating RSA-3072 key pair...
+[INFO] Key generation complete!
+[INFO] Max plaintext size: 318 bytes
+[INFO] Generating RSA-3072 key pair...
+[INFO] Key generation complete!
+[INFO] Max plaintext size: 318 bytes
+===============================================================================
+All tests passed (23 assertions in 6 test cases)
+
+<end of output>
+Test time =   3.02 sec
+----------------------------------------------------------
+Test Passed.
+"unit_tests" end time: Jun 07 01:10 EDT
+"unit_tests" time elapsed: 00:00:03
+----------------------------------------------------------
+
+End testing: Jun 07 01:10 EDT

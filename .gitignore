@@ -1,0 +1,20 @@
+# File build và chương trình đã biên dịch
+*.exe
+**/bin/
+**/output/
+
+# Dữ liệu benchmark dung lượng lớn
+**/results/**/inputs/*.bin
+
+# Thư mục build
+build/
+cmake-build-*/
+CMakeFiles/
+
+# File tạm
+*.log
+*.tmp
+
+# Thông tin nhạy cảm
+.env
+*.key

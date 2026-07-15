@@ -1,0 +1,47 @@
+Connecting to 127.0.0.1
+depth=0 CN=localhost
+verify error:num=18:self-signed certificate
+verify return:1
+depth=0 CN=localhost
+verify return:1
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:CN=localhost
+   i:CN=localhost
+   a:PKEY: EC, (prime256v1); sigalg: ecdsa-with-SHA256
+   v:NotBefore: Jun  8 03:33:15 2026 GMT; NotAfter: Jun  8 03:33:15 2027 GMT
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIBmDCCAT6gAwIBAgIUcQqcHrTLFXu3AvIh8MJ1M4KlmSIwCgYIKoZIzj0EAwIw
+FDESMBAGA1UEAwwJbG9jYWxob3N0MB4XDTI2MDYwODAzMzMxNVoXDTI3MDYwODAz
+MzMxNVowFDESMBAGA1UEAwwJbG9jYWxob3N0MFkwEwYHKoZIzj0CAQYIKoZIzj0D
+AQcDQgAEmeQv4Cvvf3LovhMU+kLorzXxuzns/nIjdbOs5G4RMZYn6BbQvMr/YkiH
+2gQEF6QARGP4xlyE4T7Uz7J8IuSaHqNuMGwwKQYDVR0RBCIwIIIJbG9jYWxob3N0
+gg1leGFtcGxlLmxvY2FshwR/AAABMAsGA1UdDwQEAwIDiDATBgNVHSUEDDAKBggr
+BgEFBQcDATAdBgNVHQ4EFgQUwFvMC8nItTedwJ0OfvP4/oCsWoUwCgYIKoZIzj0E
+AwIDSAAwRQIhAIHSHH81sPMCy3iCtfwy8kb4y+SLMVWtg1wV2SM3aL4pAiAwRXsx
+B5xdMC/6ZCfeLgjBx38/QN3ppEd1UoWdqlzyJA==
+-----END CERTIFICATE-----
+subject=CN=localhost
+issuer=CN=localhost
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: ecdsa_secp256r1_sha256
+Negotiated TLS1.3 group: X25519MLKEM768
+---
+SSL handshake has read 1875 bytes and written 1556 bytes
+Verification error: self-signed certificate
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Protocol: TLSv1.3
+Server public key is 256 bit
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 18 (self-signed certificate)
+---

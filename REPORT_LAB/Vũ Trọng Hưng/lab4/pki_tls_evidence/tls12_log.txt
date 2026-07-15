@@ -1,0 +1,73 @@
+Connecting to 127.0.0.1
+depth=0 CN=localhost
+verify error:num=18:self-signed certificate
+verify return:1
+depth=0 CN=localhost
+verify return:1
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:CN=localhost
+   i:CN=localhost
+   a:PKEY: EC, (prime256v1); sigalg: ecdsa-with-SHA256
+   v:NotBefore: Jun  8 03:33:15 2026 GMT; NotAfter: Jun  8 03:33:15 2027 GMT
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIBmDCCAT6gAwIBAgIUcQqcHrTLFXu3AvIh8MJ1M4KlmSIwCgYIKoZIzj0EAwIw
+FDESMBAGA1UEAwwJbG9jYWxob3N0MB4XDTI2MDYwODAzMzMxNVoXDTI3MDYwODAz
+MzMxNVowFDESMBAGA1UEAwwJbG9jYWxob3N0MFkwEwYHKoZIzj0CAQYIKoZIzj0D
+AQcDQgAEmeQv4Cvvf3LovhMU+kLorzXxuzns/nIjdbOs5G4RMZYn6BbQvMr/YkiH
+2gQEF6QARGP4xlyE4T7Uz7J8IuSaHqNuMGwwKQYDVR0RBCIwIIIJbG9jYWxob3N0
+gg1leGFtcGxlLmxvY2FshwR/AAABMAsGA1UdDwQEAwIDiDATBgNVHSUEDDAKBggr
+BgEFBQcDATAdBgNVHQ4EFgQUwFvMC8nItTedwJ0OfvP4/oCsWoUwCgYIKoZIzj0E
+AwIDSAAwRQIhAIHSHH81sPMCy3iCtfwy8kb4y+SLMVWtg1wV2SM3aL4pAiAwRXsx
+B5xdMC/6ZCfeLgjBx38/QN3ppEd1UoWdqlzyJA==
+-----END CERTIFICATE-----
+subject=CN=localhost
+issuer=CN=localhost
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: ecdsa_secp256r1_sha256
+Peer Temp Key: X25519, 253 bits
+---
+SSL handshake has read 886 bytes and written 426 bytes
+Verification error: self-signed certificate
+---
+New, TLSv1.2, Cipher is ECDHE-ECDSA-AES256-GCM-SHA384
+Protocol: TLSv1.2
+Server public key is 256 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : ECDHE-ECDSA-AES256-GCM-SHA384
+    Session-ID: DE0A4E45FF7A352AB9437E8F0E1A3E8F20FDC93A329838EDAFEFC546CCF97924
+    Session-ID-ctx: 
+    Master-Key: A9E6C3503AC62788D5121F4785C7DAFC63E04B7949687FD348C855D0D9B3C38DAF848365480E982909DC9552DF280C4A
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 300 (seconds)
+    TLS session ticket:
+    0000 - 16 d5 61 83 c7 60 44 17-35 75 23 bd ff 42 73 f0   ..a..`D.5u#..Bs.
+    0010 - c2 28 2a 69 4f cc 9b 64-7e 68 90 63 1e ab 5a 66   .(*iO..d~h.c..Zf
+    0020 - 17 32 93 a3 3d 6b 65 b5-c7 f1 4b 81 1c 49 ae 27   .2..=ke...K..I.'
+    0030 - 47 63 dc d3 94 8f a7 08-ea b4 3c 54 7d b4 b2 d5   Gc........<T}...
+    0040 - e4 41 7d 2d 31 46 6b d9-a7 82 71 5c 40 b1 77 d7   .A}-1Fk...q\@.w.
+    0050 - fe f4 cd 59 48 a8 81 f5-c3 7d b1 26 47 a7 df 3d   ...YH....}.&G..=
+    0060 - 9c 24 c5 1b 4b 64 f0 d0-b3 7d 2f 7e 65 44 a3 db   .$..Kd...}/~eD..
+    0070 - 67 5b fc 26 96 b7 bc 61-e5 aa 6a 03 58 31 13 01   g[.&...a..j.X1..
+    0080 - ab da 44 19 db f6 15 f9-0e d8 a2 d1 e4 04 29 50   ..D...........)P
+    0090 - 88 87 cc 68 c3 55 fd ea-e9 c1 87 7f d7 8e 93 bc   ...h.U..........
+    00a0 - c5 77 e4 24 20 26 06 ff-b4 c2 1c 45 81 c5 4a bf   .w.$ &.....E..J.
+    00b0 - d8 10 8e c1 69 c8 6c 12-55 2b 27 56 e0 f8 85 44   ....i.l.U+'V...D
+
+    Start Time: 1780890914
+    Timeout   : 7200 (sec)
+    Verify return code: 18 (self-signed certificate)
+    Extended master secret: yes
+---

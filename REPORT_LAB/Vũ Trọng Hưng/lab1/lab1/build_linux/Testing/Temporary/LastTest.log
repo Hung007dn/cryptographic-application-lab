@@ -1,0 +1,166 @@
+Start testing: Jun 06 11:59 EDT
+----------------------------------------------------------
+1/4 Testing: help_test
+1/4 Test: help_test
+Command: "/home/kali/Desktop/REPORT_5_LAB/lab1/lab1/build_linux/encrypt_tool" "--help"
+Directory: /home/kali/Desktop/REPORT_5_LAB/lab1/lab1/build_linux
+"help_test" start time: Jun 06 11:59 EDT
+Output:
+----------------------------------------------------------
+Usage:
+  /home/kali/Desktop/REPORT_5_LAB/lab1/lab1/build_linux/encrypt_tool encrypt --mode <mode> --key <key> [options]
+  /home/kali/Desktop/REPORT_5_LAB/lab1/lab1/build_linux/encrypt_tool decrypt --mode <mode> --key <key> [options]
+
+Required:
+  --mode <mode>       ecb|cbc|ofb|cfb|ctr|xts|ccm|gcm
+  --key <file>        Key file (raw or hex-encoded)
+  --key-hex <hex>     Key as hex string
+  --in <file>         Input file
+  --out <file>        Output file; if omitted, output is printed to screen
+
+IV/Nonce (optional):
+  --iv <file>         IV/nonce file
+  --iv-hex <hex>      IV/nonce as hex string
+  --nonce <file>      Nonce file (for AEAD)
+  --nonce-hex <hex>   Nonce as hex string
+  If omitted, auto-generated securely
+
+AEAD Options (CCM/GCM):
+  --aad <file>        Additional Authenticated Data file
+  --aad-text <str>    AAD as string
+  --aead              Enable authenticated mode flag for CCM/GCM
+
+Input Options:
+  --text <str>        Encrypt/decrypt text directly
+
+Output Format:
+  --encode <format>   raw|hex|base64 (default: raw)
+
+ECB Restrictions:
+  --allow-ecb         Override ECB restrictions (NOT RECOMMENDED)
+
+Testing Options:
+  --kat <file>        Run Known Answer Tests from JSON file
+  --test-nist         Run NIST test vector validation
+  --negative-tests    Run negative/error tests
+  --benchmark         Run performance benchmarks
+  --help, -h          Show this help
+
+Examples:
+  /home/kali/Desktop/REPORT_5_LAB/lab1/lab1/build_linux/encrypt_tool encrypt --mode gcm --key key.bin --in msg.txt --out ct.bin
+  /home/kali/Desktop/REPORT_5_LAB/lab1/lab1/build_linux/encrypt_tool decrypt --mode gcm --key key.bin --in ct.bin --out msg.txt
+  /home/kali/Desktop/REPORT_5_LAB/lab1/lab1/build_linux/encrypt_tool encrypt --mode cbc --key-hex 001122 --text "Hello" --out out.enc
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"help_test" end time: Jun 06 11:59 EDT
+"help_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: kat_vectors_test
+2/4 Test: kat_vectors_test
+Command: "/home/kali/Desktop/REPORT_5_LAB/lab1/lab1/build_linux/encrypt_tool" "--kat" "/home/kali/Desktop/REPORT_5_LAB/lab1/lab1/test_vectors.json"
+Directory: /home/kali/Desktop/REPORT_5_LAB/lab1/lab1/build_linux
+"kat_vectors_test" start time: Jun 06 11:59 EDT
+Output:
+----------------------------------------------------------
+
+=== KAT Test Suite ===
+
+[PASS] AES-128-CBC NIST SP 800-38A F.2.1 Block 1               mode=cbc  (0ms)
+[PASS] AES-128-CFB128 NIST SP 800-38A F.3.13 Block 1           mode=cfb  (0ms)
+[PASS] AES-128-OFB NIST SP 800-38A F.4.1 Block 1               mode=ofb  (0ms)
+[PASS] AES-128-CTR NIST SP 800-38A F.5.1 Block 1               mode=ctr  (0ms)
+[PASS] AES-128-GCM NIST SP 800-38D Test Case 2                 mode=gcm  (0ms)
+[PASS] AES-128-CCM RFC 3610 Test Case 1                        mode=ccm  (0ms)
+
+=== KAT Summary ===
+Total : 6
+Passed: 6
+Failed: 0
+Success rate: 100%
+
+Mode summary:
+  - cbc  : PASS | AES-128-CBC NIST SP 800-38A F.2.1 Block 1
+  - cfb  : PASS | AES-128-CFB128 NIST SP 800-38A F.3.13 Block 1
+  - ofb  : PASS | AES-128-OFB NIST SP 800-38A F.4.1 Block 1
+  - ctr  : PASS | AES-128-CTR NIST SP 800-38A F.5.1 Block 1
+  - gcm  : PASS | AES-128-GCM NIST SP 800-38D Test Case 2
+  - ccm  : PASS | AES-128-CCM RFC 3610 Test Case 1
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"kat_vectors_test" end time: Jun 06 11:59 EDT
+"kat_vectors_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: negative_tests
+3/4 Test: negative_tests
+Command: "/home/kali/Desktop/REPORT_5_LAB/lab1/lab1/build_linux/encrypt_tool" "--negative-tests"
+Directory: /home/kali/Desktop/REPORT_5_LAB/lab1/lab1/build_linux
+"negative_tests" start time: Jun 06 11:59 EDT
+Output:
+----------------------------------------------------------
+
+========================================
+      NEGATIVE TESTS SUITE
+========================================
+
+[Test] Wrong Key...
+[Test] Wrong IV...
+[Test] Tampered Ciphertext (Non-AEAD - CBC)...
+[Test] Tampered Ciphertext (AEAD - GCM)...
+[Test] Invalid Authentication Tag...
+[Test] Invalid IV Length...
+    Correctly rejected: Invalid IV/nonce size: expected 16 bytes, got 8 bytes
+[Test] Malformed Input...
+    Correct: Non-existent file rejected
+    Correct: Invalid hex detected
+[Test] Nonce Reuse Detection...
+[INFO] Loaded 4 bytes from dummy.txt
+[SECURITY] Nonce check passed for AES-256-GCM
+[INFO] Encryption completed using AES-256-GCM
+[INFO] Saved 4 bytes to dummy.enc
+[INFO] Sidecar JSON saved to dummy.enc.json
+    Correct: Nonce reuse detected: Cannot open input file: dummy2.txt
+
+=== Negative Tests Summary ===
+  [PASS] Wrong Key
+  [PASS] Wrong IV
+  [PASS] Tampered Ciphertext (Non-AEAD)
+  [PASS] Tampered Ciphertext (AEAD)
+  [PASS] Invalid Tag
+  [PASS] Invalid IV Length
+  [PASS] Malformed Input
+  [PASS] Nonce Reuse Detection
+
+Passed: 8/8
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"negative_tests" end time: Jun 06 11:59 EDT
+"negative_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: unit_tests
+4/4 Test: unit_tests
+Command: "/home/kali/Desktop/REPORT_5_LAB/lab1/lab1/build_linux/unit_tests"
+Directory: /home/kali/Desktop/REPORT_5_LAB/lab1/lab1/build_linux
+"unit_tests" start time: Jun 06 11:59 EDT
+Output:
+----------------------------------------------------------
+===============================================================================
+All tests passed (9 assertions in 4 test cases)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"unit_tests" end time: Jun 06 11:59 EDT
+"unit_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 06 11:59 EDT

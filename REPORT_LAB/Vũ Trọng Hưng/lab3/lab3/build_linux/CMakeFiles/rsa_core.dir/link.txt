@@ -1,0 +1,2 @@
+/usr/bin/ar qc librsa_core.a CMakeFiles/rsa_core.dir/RSAConfig.cpp.o CMakeFiles/rsa_core.dir/RSAKeyManager.cpp.o CMakeFiles/rsa_core.dir/RSAEngine.cpp.o CMakeFiles/rsa_core.dir/HybridEncryptor.cpp.o CMakeFiles/rsa_core.dir/RSAValidator.cpp.o CMakeFiles/rsa_core.dir/RSABenchmarker.cpp.o CMakeFiles/rsa_core.dir/NegativeTests.cpp.o CMakeFiles/rsa_core.dir/ManualOAEP.cpp.o CMakeFiles/rsa_core.dir/OAEPValidator.cpp.o
+/usr/bin/ranlib librsa_core.a

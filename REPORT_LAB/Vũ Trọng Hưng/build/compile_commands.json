@@ -1,0 +1,68 @@
+[
+{
+  "directory": "D:/Documents/DAIHOC/MMUD/REPORT_5_LAB/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -ID:/Documents/DAIHOC/MMUD/REPORT_5_LAB/lab3/lab3 -ID:/Documents/DAIHOC/MMUD/REPORT_5_LAB -ID:/Documents/DAIHOC/MMUD/REPORT_5_LAB/cryptopp/include -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\rsa_core.dir\\RSAConfig.cpp.obj -c D:\\Documents\\DAIHOC\\MMUD\\REPORT_5_LAB\\lab3\\lab3\\RSAConfig.cpp",
+  "file": "D:/Documents/DAIHOC/MMUD/REPORT_5_LAB/lab3/lab3/RSAConfig.cpp",
+  "output": "D:/Documents/DAIHOC/MMUD/REPORT_5_LAB/build/CMakeFiles/rsa_core.dir/RSAConfig.cpp.obj"
+},
+{
+  "directory": "D:/Documents/DAIHOC/MMUD/REPORT_5_LAB/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -ID:/Documents/DAIHOC/MMUD/REPORT_5_LAB/lab3/lab3 -ID:/Documents/DAIHOC/MMUD/REPORT_5_LAB -ID:/Documents/DAIHOC/MMUD/REPORT_5_LAB/cryptopp/include -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\rsa_core.dir\\RSAKeyManager.cpp.obj -c D:\\Documents\\DAIHOC\\MMUD\\REPORT_5_LAB\\lab3\\lab3\\RSAKeyManager.cpp",
+  "file": "D:/Documents/DAIHOC/MMUD/REPORT_5_LAB/lab3/lab3/RSAKeyManager.cpp",
+  "output": "D:/Documents/DAIHOC/MMUD/REPORT_5_LAB/build/CMakeFiles/rsa_core.dir/RSAKeyManager.cpp.obj"
+},
+{
+  "directory": "D:/Documents/DAIHOC/MMUD/REPORT_5_LAB/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -ID:/Documents/DAIHOC/MMUD/REPORT_5_LAB/lab3/lab3 -ID:/Documents/DAIHOC/MMUD/REPORT_5_LAB -ID:/Documents/DAIHOC/MMUD/REPORT_5_LAB/cryptopp/include -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\rsa_core.dir\\RSAEngine.cpp.obj -c D:\\Documents\\DAIHOC\\MMUD\\REPORT_5_LAB\\lab3\\lab3\\RSAEngine.cpp",
+  "file": "D:/Documents/DAIHOC/MMUD/REPORT_5_LAB/lab3/lab3/RSAEngine.cpp",
+  "output": "D:/Documents/DAIHOC/MMUD/REPORT_5_LAB/build/CMakeFiles/rsa_core.dir/RSAEngine.cpp.obj"
+},
+{
+  "directory": "D:/Documents/DAIHOC/MMUD/REPORT_5_LAB/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -ID:/Documents/DAIHOC/MMUD/REPORT_5_LAB/lab3/lab3 -ID:/Documents/DAIHOC/MMUD/REPORT_5_LAB -ID:/Documents/DAIHOC/MMUD/REPORT_5_LAB/cryptopp/include -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\rsa_core.dir\\HybridEncryptor.cpp.obj -c D:\\Documents\\DAIHOC\\MMUD\\REPORT_5_LAB\\lab3\\lab3\\HybridEncryptor.cpp",
+  "file": "D:/Documents/DAIHOC/MMUD/REPORT_5_LAB/lab3/lab3/HybridEncryptor.cpp",
+  "output": "D:/Documents/DAIHOC/MMUD/REPORT_5_LAB/build/CMakeFiles/rsa_core.dir/HybridEncryptor.cpp.obj"
+},
+{
+  "directory": "D:/Documents/DAIHOC/MMUD/REPORT_5_LAB/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -ID:/Documents/DAIHOC/MMUD/REPORT_5_LAB/lab3/lab3 -ID:/Documents/DAIHOC/MMUD/REPORT_5_LAB -ID:/Documents/DAIHOC/MMUD/REPORT_5_LAB/cryptopp/include -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\rsa_core.dir\\RSAValidator.cpp.obj -c D:\\Documents\\DAIHOC\\MMUD\\REPORT_5_LAB\\lab3\\lab3\\RSAValidator.cpp",
+  "file": "D:/Documents/DAIHOC/MMUD/REPORT_5_LAB/lab3/lab3/RSAValidator.cpp",
+  "output": "D:/Documents/DAIHOC/MMUD/REPORT_5_LAB/build/CMakeFiles/rsa_core.dir/RSAValidator.cpp.obj"
+},
+{
+  "directory": "D:/Documents/DAIHOC/MMUD/REPORT_5_LAB/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -ID:/Documents/DAIHOC/MMUD/REPORT_5_LAB/lab3/lab3 -ID:/Documents/DAIHOC/MMUD/REPORT_5_LAB -ID:/Documents/DAIHOC/MMUD/REPORT_5_LAB/cryptopp/include -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\rsa_core.dir\\RSABenchmarker.cpp.obj -c D:\\Documents\\DAIHOC\\MMUD\\REPORT_5_LAB\\lab3\\lab3\\RSABenchmarker.cpp",
+  "file": "D:/Documents/DAIHOC/MMUD/REPORT_5_LAB/lab3/lab3/RSABenchmarker.cpp",
+  "output": "D:/Documents/DAIHOC/MMUD/REPORT_5_LAB/build/CMakeFiles/rsa_core.dir/RSABenchmarker.cpp.obj"
+},
+{
+  "directory": "D:/Documents/DAIHOC/MMUD/REPORT_5_LAB/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -ID:/Documents/DAIHOC/MMUD/REPORT_5_LAB/lab3/lab3 -ID:/Documents/DAIHOC/MMUD/REPORT_5_LAB -ID:/Documents/DAIHOC/MMUD/REPORT_5_LAB/cryptopp/include -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\rsa_core.dir\\NegativeTests.cpp.obj -c D:\\Documents\\DAIHOC\\MMUD\\REPORT_5_LAB\\lab3\\lab3\\NegativeTests.cpp",
+  "file": "D:/Documents/DAIHOC/MMUD/REPORT_5_LAB/lab3/lab3/NegativeTests.cpp",
+  "output": "D:/Documents/DAIHOC/MMUD/REPORT_5_LAB/build/CMakeFiles/rsa_core.dir/NegativeTests.cpp.obj"
+},
+{
+  "directory": "D:/Documents/DAIHOC/MMUD/REPORT_5_LAB/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -ID:/Documents/DAIHOC/MMUD/REPORT_5_LAB/lab3/lab3 -ID:/Documents/DAIHOC/MMUD/REPORT_5_LAB -ID:/Documents/DAIHOC/MMUD/REPORT_5_LAB/cryptopp/include -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\rsa_core.dir\\ManualOAEP.cpp.obj -c D:\\Documents\\DAIHOC\\MMUD\\REPORT_5_LAB\\lab3\\lab3\\ManualOAEP.cpp",
+  "file": "D:/Documents/DAIHOC/MMUD/REPORT_5_LAB/lab3/lab3/ManualOAEP.cpp",
+  "output": "D:/Documents/DAIHOC/MMUD/REPORT_5_LAB/build/CMakeFiles/rsa_core.dir/ManualOAEP.cpp.obj"
+},
+{
+  "directory": "D:/Documents/DAIHOC/MMUD/REPORT_5_LAB/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -ID:/Documents/DAIHOC/MMUD/REPORT_5_LAB/lab3/lab3 -ID:/Documents/DAIHOC/MMUD/REPORT_5_LAB -ID:/Documents/DAIHOC/MMUD/REPORT_5_LAB/cryptopp/include -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\rsa_core.dir\\OAEPValidator.cpp.obj -c D:\\Documents\\DAIHOC\\MMUD\\REPORT_5_LAB\\lab3\\lab3\\OAEPValidator.cpp",
+  "file": "D:/Documents/DAIHOC/MMUD/REPORT_5_LAB/lab3/lab3/OAEPValidator.cpp",
+  "output": "D:/Documents/DAIHOC/MMUD/REPORT_5_LAB/build/CMakeFiles/rsa_core.dir/OAEPValidator.cpp.obj"
+},
+{
+  "directory": "D:/Documents/DAIHOC/MMUD/REPORT_5_LAB/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -ID:/Documents/DAIHOC/MMUD/REPORT_5_LAB/lab3/lab3 -ID:/Documents/DAIHOC/MMUD/REPORT_5_LAB -ID:/Documents/DAIHOC/MMUD/REPORT_5_LAB/cryptopp/include -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\rsatool.dir\\main.cpp.obj -c D:\\Documents\\DAIHOC\\MMUD\\REPORT_5_LAB\\lab3\\lab3\\main.cpp",
+  "file": "D:/Documents/DAIHOC/MMUD/REPORT_5_LAB/lab3/lab3/main.cpp",
+  "output": "D:/Documents/DAIHOC/MMUD/REPORT_5_LAB/build/CMakeFiles/rsatool.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/Documents/DAIHOC/MMUD/REPORT_5_LAB/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -ID:/Documents/DAIHOC/MMUD/REPORT_5_LAB/lab3/lab3 -ID:/Documents/DAIHOC/MMUD/REPORT_5_LAB -ID:/Documents/DAIHOC/MMUD/REPORT_5_LAB/cryptopp/include -g -std=gnu++17 -o CMakeFiles\\unit_tests.dir\\tests\\unit_tests.cpp.obj -c D:\\Documents\\DAIHOC\\MMUD\\REPORT_5_LAB\\lab3\\lab3\\tests\\unit_tests.cpp",
+  "file": "D:/Documents/DAIHOC/MMUD/REPORT_5_LAB/lab3/lab3/tests/unit_tests.cpp",
+  "output": "D:/Documents/DAIHOC/MMUD/REPORT_5_LAB/build/CMakeFiles/unit_tests.dir/tests/unit_tests.cpp.obj"
+}
+]

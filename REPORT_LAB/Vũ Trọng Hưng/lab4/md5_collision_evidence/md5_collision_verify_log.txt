@@ -1,0 +1,25 @@
+[MD5 Collision Demo] Initialized
+
+========================================
+        MD5 COLLISION VERIFICATION
+========================================
+
+[Files]
+  File 1: /home/kali/md5_png_fastcoll/collision1.png
+  File 2: /home/kali/md5_png_fastcoll/collision2.png
+  Files differ: yes
+
+[MD5]
+  File 1: b9d9c22c4c3235faa5ebd3289770ce6a
+  File 2: b9d9c22c4c3235faa5ebd3289770ce6a
+
+[SHA-256]
+  File 1: 923697ed72ea59d6b6f3d633a1a5cf47641d94d3b50d34225a38699467242367
+  File 2: 31ec53e124cb7f2072ca21253a1aceab99b6296f1dc57817d8db5ff0ba59702e
+
+[Explanation]
+  A valid MD5 collision means two different files have the same MD5 digest.
+  This demonstrates collision weakness, not preimage recovery.
+
+[+] MD5 collision confirmed.
+[+] SHA-256 differs, showing that the collision is specific to MD5.

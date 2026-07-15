@@ -1,0 +1,5 @@
+/home/kali/Desktop/REPORT_5_LAB/lab4/lab4/build_linux/CMakeFiles/hashtool.dir
+/home/kali/Desktop/REPORT_5_LAB/lab4/lab4/build_linux/CMakeFiles/unit_tests.dir
+/home/kali/Desktop/REPORT_5_LAB/lab4/lab4/build_linux/CMakeFiles/test.dir
+/home/kali/Desktop/REPORT_5_LAB/lab4/lab4/build_linux/CMakeFiles/edit_cache.dir
+/home/kali/Desktop/REPORT_5_LAB/lab4/lab4/build_linux/CMakeFiles/rebuild_cache.dir

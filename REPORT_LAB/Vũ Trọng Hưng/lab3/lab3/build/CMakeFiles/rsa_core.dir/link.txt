@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc librsa_core.a CMakeFiles/rsa_core.dir/RSAConfig.cpp.obj CMakeFiles/rsa_core.dir/RSAKeyManager.cpp.obj CMakeFiles/rsa_core.dir/RSAEngine.cpp.obj CMakeFiles/rsa_core.dir/HybridEncryptor.cpp.obj CMakeFiles/rsa_core.dir/RSAValidator.cpp.obj CMakeFiles/rsa_core.dir/RSABenchmarker.cpp.obj CMakeFiles/rsa_core.dir/NegativeTests.cpp.obj CMakeFiles/rsa_core.dir/ManualOAEP.cpp.obj CMakeFiles/rsa_core.dir/OAEPValidator.cpp.obj
+C:\msys64\ucrt64\bin\ranlib.exe librsa_core.a

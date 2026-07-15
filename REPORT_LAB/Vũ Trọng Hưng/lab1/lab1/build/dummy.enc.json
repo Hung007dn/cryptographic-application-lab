@@ -1,0 +1,8 @@
+{
+    "algorithm": "AES-256-GCM",
+    "iv": "EC3A5B725C57B2BF91B57641",
+    "key_size": 256,
+    "mode": "AES-256-GCM",
+    "tag": "63625068256EA008C759BDD0FBDA3F54",
+    "tag_length": 128
+}
